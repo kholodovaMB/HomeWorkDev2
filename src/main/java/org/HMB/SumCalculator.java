@@ -9,7 +9,7 @@ public class SumCalculator {
             }
             return res;
         } else {
-            throw new IllegalArgumentException("n not correct");
+            throw new IllegalArgumentException("n not correct!");
         }
     }
 
