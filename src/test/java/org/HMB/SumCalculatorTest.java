@@ -25,7 +25,7 @@ class SumCalculatorTest {
 
     @Test
     void sumCorrectFor3() {
-        //When
+        //When 3
         int actual = result.sum(3);
 
         //Then
