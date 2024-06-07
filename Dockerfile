@@ -1,13 +1,15 @@
-# Використовуємо офіційний образ OpenJDK як базовий образ 17
+# Використовуємо офіційний образ OpenJDK як базовий образ
 FROM openjdk:17
 
 # Встановлюємо робочу директорію
 WORKDIR /app
 
 # Копіюємо Gradle файли
-COPY build.gradle settings.gradle ./
+COPY gradlew ./
+COPY gradle ./gradle
 
 # Копіюємо решту файлів проекту
+COPY build.gradle settings.gradle ./
 COPY src ./src
 
 # Завантажуємо всі необхідні залежності та будуємо додаток
