@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc13b816-f8de-4923-992c-de23085936f7" name="Changes" comment="fix Dockerfile" />
+    <list default="true" id="cc13b816-f8de-4923-992c-de23085936f7" name="Changes" comment="test Dockerfile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +92,7 @@
       <recent name="org.HMB" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HomeWorkDev2 [build]">
+  <component name="RunManager" selected="Gradle.HomeWorkDev2 [clean]">
     <configuration name="HomeWorkDev2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,8 +200,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HomeWorkDev2 [build]" />
         <item itemvalue="Gradle.HomeWorkDev2 [clean]" />
+        <item itemvalue="Gradle.HomeWorkDev2 [build]" />
         <item itemvalue="Gradle.HomeWorkDev2 [testClasses]" />
         <item itemvalue="Gradle.HomeWorkDev2 [wrapper]" />
         <item itemvalue="Gradle.HomeWorkDev2 [init]" />
@@ -263,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717782036123</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test Dockerfile">
+      <created>1717782273789</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717782273789</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,6 +284,7 @@
     <MESSAGE value="add Dockerfile &amp; CI" />
     <MESSAGE value="fix Dockerfile &amp; CI" />
     <MESSAGE value="fix Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix Dockerfile" />
+    <MESSAGE value="test Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="test Dockerfile" />
   </component>
 </project>
