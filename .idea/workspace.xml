@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc13b816-f8de-4923-992c-de23085936f7" name="Changes" comment="fix Dockerfile 1" />
+    <list default="true" id="cc13b816-f8de-4923-992c-de23085936f7" name="Changes" comment="test Dockerfile and CI">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/run.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/run.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717786154159</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test Dockerfile and CI">
+      <created>1717787267225</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717787267225</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -290,6 +300,7 @@
     <MESSAGE value="fix Dockerfile" />
     <MESSAGE value="test Dockerfile" />
     <MESSAGE value="fix Dockerfile 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix Dockerfile 1" />
+    <MESSAGE value="test Dockerfile and CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="test Dockerfile and CI" />
   </component>
 </project>
