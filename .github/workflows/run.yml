@@ -31,10 +31,10 @@ jobs:
         run: ./gradlew test
 
       - name: Build Docker image
-        run: docker build -t docker.pkg.github.com/testgithubactions/homeworkdev2:latest .
+        run: docker build -t kholodovamb/testgithubactions/homeworkdev21:latest .
 
       - name: Log in to GitHub Docker Registry
         run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login docker.pkg.github.com -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
 
       - name: Push Docker image
-        run: docker push docker.pkg.github.com/testgithubactions/homeworkdev2:latest
+        run: docker push kholodovamb/testgithubactions/homeworkdev21:latest
